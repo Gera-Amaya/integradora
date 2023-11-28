@@ -10751,6 +10751,7 @@ button.bg-dark:focus {
 
 .font-weight-light {
   font-weight: 300 !important;
+  color: #adb5bd;
 }
 
 .font-weight-lighter {
@@ -11501,6 +11502,7 @@ pre .code {
 
 .footer {
   background: #17263C;
+  color: #95999c;
 }
 
 .header {
