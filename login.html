@@ -59,18 +59,18 @@
   
     <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
       <div class="row gx-lg-5 align-items-center mb-5">
-        <img src="./assets/imgLOGO/Asset2.jpg" style="box-shadow: #9ab4ff;">
+        <img src="./assets/imgLOGO/Asset3.png" style="box-shadow: #9ab4ff;" class="col-lg-6 mb-5 mb-lg-0">
         <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
           <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
             The best way to<br />
             <span style="color: hsl(218, 81%, 75%)">Learn online</span>
           </h1>
-          <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
+<!--           <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Temporibus, expedita iusto veniam atque, magni tempora mollitia
             dolorum consequatur nulla, neque debitis eos reprehenderit quasi
             ab ipsum nisi dolorem modi. Quos?
-          </p>
+          </p> -->
         </div>
   
         <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
@@ -83,13 +83,13 @@
               <form action="validarUsuario.php" method="post" onsubmit="fadeOutAndRedirect('registrarUsuarios.php')">
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                  <input type="email" name="correo" class="form-control" />
+                  <input type="email" name="correo" class="form-control" required/>
                   <label class="form-label" for="imput">Email address</label>
                 </div>
   
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                  <input type="password" name="contrasena" class="form-control" />
+                  <input type="password" name="contrasena" class="form-control" required/>
                   <label class="form-label" for="imput">Password</label>
                 </div>
 
@@ -98,24 +98,9 @@
                 <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button> -->
 
                 <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
-
-                <p>You do not have an account?  <a href="Singup.html" onclick="fadeOutAndRedirect('Singup.html')" class="login-link"> Register </a></p>
-
-
-                <!-- Register buttons -->
-                <div class="text-center">
-                    <a class="btn btn-primary" style="background-color: #3b5998;" href="#!" role="button"
-                    ><i class="bi bi-facebook"></i></a>
-                    <!-- Twitter -->
-                    <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button"
-                    ><i class="fab fa-twitter"></i></a>
-                    <!-- Instagram -->
-                    <a class="btn btn-primary" style="background-color: #ac2bac;" href="#!" role="button"
-                    ><i class="fab fa-instagram"></i></a>
-                    <!-- Whatsapp -->
-                    <a class="btn btn-primary" style="background-color: #25d366;" href="#!" role="button"
-                    ><i class="fab fa-whatsapp"></i></a>
-                </div>
+                
+                <p>You do not have an account?<br><a href="Singup.html" onclick="fadeOutAndRedirect('Singup.html')" class="login-link">Register</a></p>
+                <p><a href="index.html" onclick="fadeOutAndRedirect('login.html')" class="login-link">Home</a></p>
               </form>
             </div>
           </div>

@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
 
     echo "Hola: " . $row["nombre"]; echo'<br>';
    /*  echo "<br>Tu tipo de usuario es:  " . $row["jerarquia"]; */
-    header("Refresh:0; url=index.html");
+    header("Refresh:0; url=./desgin/home.html");
 
   }
 } else {
