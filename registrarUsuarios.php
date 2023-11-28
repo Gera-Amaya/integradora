@@ -5,11 +5,10 @@ include "conexion.php";
 
 
 $nombre=$_POST['nombre'];
-$apellido=$_POST['apellido1'];
-$apellido=$_POST['apellido2'];
+$apellido=$_POST['apellido'];
 $correo=$_POST['correo']; 
 $contrasena=$_POST['contrasena'];
-$fecha_nacimineto=$_POST['fecha_nacimineto'];
+ 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -18,7 +17,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO usuarios (nombre, apellido1, apellido2, correo, contraseña, fecha_nacimiento)
+$sql = "INSERT INTO usuarios (nombre, apellido, correo, contrasena)
 VALUES ('$nombre','$apellido','$correo','$contrasena')";
 
 
