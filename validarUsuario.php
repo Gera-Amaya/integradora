@@ -10,7 +10,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM usuarios where correo='$correo' and contrasena='$contrasena'";
+$sql = "SELECT * FROM usuarios where correo='$correo' and contraseña='$contrasena'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

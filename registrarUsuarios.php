@@ -8,7 +8,6 @@ $nombre=$_POST['nombre'];
 $apellido=$_POST['apellido'];
 $correo=$_POST['correo']; 
 $contrasena=$_POST['contrasena'];
- 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -17,7 +16,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO usuarios (nombre, apellido, correo, contrasena)
+$sql = "INSERT INTO usuarios (nombre, apellido1, correo, contrasena)
 VALUES ('$nombre','$apellido','$correo','$contrasena')";
 
 
