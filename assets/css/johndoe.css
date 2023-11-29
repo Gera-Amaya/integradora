@@ -275,7 +275,11 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+<<<<<<< HEAD
   -webkit-appearance: button;
+=======
+webkit-appearance: button;
+>>>>>>> main
 }
 
 button:not(:disabled),
