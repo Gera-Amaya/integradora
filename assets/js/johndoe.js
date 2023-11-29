@@ -56,9 +56,6 @@ $(window).on("load", function() {
 });
 
 
-<<<<<<< HEAD
-
-=======
 // google maps
 function initMap() {
 // Styles a map in night mode.
@@ -151,4 +148,3 @@ function initMap() {
       ]
     });
 }
->>>>>>> main
