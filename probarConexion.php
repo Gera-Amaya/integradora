@@ -14,4 +14,8 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 echo "Connected successfully";
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 32bca7acda201d408c906e3e32546a5157e57d5b
